@@ -41,11 +41,11 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
-$db['default']['port']     = '3306';
+$db['default']['hostname'] = $_ENV['$OPENSHIFT_MYSQL_DB_HOST'];
+$db['default']['username'] = 'adminJ2IdA71';
+$db['default']['password'] = 'fZ7erEkBe1EQ';
+$db['default']['database'] = 'php';
+$db['default']['port']     = $_ENV['$OPENSHIFT_MYSQL_DB_PORT'];
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = 'bf_';
 $db['default']['pconnect'] = TRUE;
