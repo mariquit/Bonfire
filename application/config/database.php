@@ -41,11 +41,11 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-q
-$db['default']['hostname'] = 127.13.31.2;
-$db['default']['username'] = 'adminJ2IdA71';
-$db['default']['password'] = 'fZ7erEkBe1EQ';
-$db['default']['database'] = 'php';
+
+$db['default']['hostname'] = '127.4.116.2';
+$db['default']['username'] = 'adminSxPzhLC';
+$db['default']['password'] = '7YcIbgANJAGF';
+$db['default']['database'] = 'bonfire';
 $db['default']['port']     = 3306;
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = 'bf_';
